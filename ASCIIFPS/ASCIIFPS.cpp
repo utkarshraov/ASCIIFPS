@@ -176,7 +176,7 @@ int main()
 			}
 			
 		}
-
+		if (timePoint1 == timePoint2) elapsedTime = 1;
 		swprintf_s(window, 40, L"X=%3.2f, Y=%3.2f, A=%3.2f, FPS = %3.2f", playerX, playerY, playerLookAngle, 1.0f / elapsedTime);
 		for (int x = 0; x < mapWidth; x++)
 		{
