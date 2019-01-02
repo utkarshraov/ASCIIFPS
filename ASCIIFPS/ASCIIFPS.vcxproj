@@ -156,6 +156,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ASCIIFPS.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SpriteEditor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleGameEngine.h" />
